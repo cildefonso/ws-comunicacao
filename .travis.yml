@@ -2,11 +2,11 @@ language: java
 sudo: false
 branches:
   only:
-  - develop
+  - master
   - /^release\/v.*$/
   - /^hotfix\/v.*$/
 cache:
   directories:
     - $HOME/.m2
 jdk:
-- oraclejdk8
+- oraclejdk8s
