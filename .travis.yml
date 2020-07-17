@@ -1,12 +1,4 @@
 language: java
 sudo: false
-branches:
-  only:
-  - master
-  - /^release\/v.*$/
-  - /^hotfix\/v.*$/
-cache:
-  directories:
-    - $HOME/.m2
 jdk:
-- oraclejdk8s
+- oraclejdk8
