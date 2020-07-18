@@ -10,7 +10,6 @@ install:
 - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 #- ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
-#- gradle assemble
 - mvn test -B
 #- mvn clean install
 - mvn -U clean install
